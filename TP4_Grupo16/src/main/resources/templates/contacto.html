@@ -27,7 +27,23 @@
             </li>
         </ul>
     </nav>
-    <label for="idTel">Teléfono: </label>
+    
+    <form action="http://www.fi.unju.edu.ar/" method="post">
+        <label for="idNyA">Nombre y Apellido: </label>
+        <input id="idNyA" type="text" name="nombreYapellido" />
+        <br />
+
+        <label>Provincia: </label>
+        <select name="provincia">
+            <option value="Jujuy">Jujuy</option>
+            <option value="Salta">Salta</option>
+            <option value="Tucuman">Tucuman</option>
+            <option value="SantaFe">Santa Fe</option>
+            <option value="BuenosAires">Buenos Aires</option>
+        </select>
+        <br />
+
+        <label for="idTel">Teléfono: </label>
         <input id="idTel" type="number" name="telefono"/>
         <br />
 
